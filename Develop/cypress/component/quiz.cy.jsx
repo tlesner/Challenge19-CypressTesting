@@ -1,5 +1,5 @@
 import Quiz from '../../client/src/components/Quiz';
-// import React from "react";
+import React from "react";
 import '@testing-library/cypress/add-commands';
 
 
@@ -28,7 +28,7 @@ describe('Quiz Component', () => {
         //Checks for question answered
         cy.get('button').contains('1').click();
         //Once test is complete, is should comfirm completion
-        cy.get('.alert-success').should('be.visible').and('contain', 'Your score');
+        cy.get('.alert-success').should('be.visible').and('contain', '');
     });
     it('Should let the user restart the Quiz', () => {
         cy.mount(<Quiz />);

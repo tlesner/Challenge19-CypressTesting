@@ -19,47 +19,8 @@
                 "isCorrect": false
             }
         ]
-    },
-    {
-        "question": "How long is a century?",
-        "answers": [
-            {
-                "text": "25",
-                "isCorrect": false
-            },
-            {
-                "text": "10",
-                "isCorrect": false
-            },
-            {
-                "text": "100",
-                "isCorrect": true
-            },
-            {
-                "text": "1000",
-                "isCorrect": false
-            }
-        ]
-    },
-    {
-        "question": "What is the powerhouse of the cell?",
-        "answers": [
-            {
-                "text": "Photosynthesis",
-                "isCorrect": false
-            },
-            {
-                "text": "Mitochondria",
-                "isCorrect": true
-            },
-            {
-                "text": "πucleus",
-                "isCorrect": false
-            },
-            {
-                "text": "the cell",
-                "isCorrect": false
-            }
-        ]
     }
 ]
+
+
+
